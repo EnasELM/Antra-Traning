@@ -27,13 +27,13 @@ input:focus {
     box-shadow: 0 0 10px lightblue;
 }
 
-.agree {
+.form__section--checkbox--agree {
     margin-left: 0%;
     padding-block: 0%;
     width: 20%;
 }
 
-.agree input {
+.form__section--checkbox--agree input {
     width: 5%;
 }
 
@@ -41,16 +41,16 @@ form {
     margin-left: 5%;
 }
 
-.middle {
+.form__section--Mobile--Email {
     display: flex;
     flex-direction: column;
 }
 
-.middle input {
+.form__section--Mobile--Email input {
     width: 92%;
 }
 
-.Conditions {
+.form__section--Conditions {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -60,13 +60,13 @@ p {
     width: 63%;
 }
 
-.register,
+.form__button--register,
 span {
     background-color: rgb(90, 153, 222);
     color: aliceblue;
 }
 
-.signIn {
+.form__button--signIn {
     background-color: rgb(108, 188, 108);
     color: aliceblue;
 }
